@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+  }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: black;
+  }
+  
+  #name {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+  }
+  
+  .sudoku_grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    background-color: black;
+  }
+  
+  .sudoku_grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: #5e4636; /* Dark brown text color */
+    font-size: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgba(173, 216, 230, 0.7);
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  
+  #GetPuzzle,
+  #SolvePuzzle {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #538fbe;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    margin-right: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  #GetPuzzle:hover,
+  #SolvePuzzle:hover {
+    background-color: #48aaaD;
+    color: black;
+  }
+  
+  .box1 {
+    background-color: #f8f1e5; /* Cream color */
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .box1:hover {
+    background-color: #f7e7cc; /* Light cream color on hover */
+    color: black;
+  }
+  
+  .box2 {
+    background-color: #f8f1e5; /* Cream color */
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .box2:hover {
+    background-color: #f9c0b7; /* Light red color on hover */
+    color: black;
+  }
+  
+  .box3 {
+    background-color: #f8f1e5; /* Cream color */
+    border: 2px solid white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .box3:hover {
+    background-color: #97e7c3; /* Light green color on hover */
+    color: black;
+  }
+  
+  .bl {
+    border-left: 4px solid black;
+  }
+  
+  .bb {
+    border-bottom: 4px solid black;
+  }
+  
+  .br {
+    border-right: 4px solid black;
+  }
+  
+  .bt {
+    border-top: 4px solid black;
+  }
+  
